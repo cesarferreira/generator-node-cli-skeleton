@@ -1,0 +1,45 @@
+{
+  "name": "generator-node-skeleton",
+  "version": "1.1.6",
+  "description": "A yeoman generator for node modules",
+  "homepage": "https://github.com/cesarferreira/generator-node-skeleton#readme",
+  "author": {
+    "name": "Cesar Ferreira",
+    "email": "cesar.manuel.ferreira@gmail.com",
+    "url": "https://cesarferreira.github.io"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "Cesar Ferreira",
+    "node",
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "yeoman-generator": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.15.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-nsp": "^2.1.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "cesarferreira/generator-node-skeleton",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
