@@ -14,11 +14,15 @@ Usage
    $ <%= moduleName %> <command> <params>
 
    $ <%= moduleName %> sample <param>             # Uses the <PARAM>
+   $ <%= moduleName %> other <param>              # Other the <PARAM>
+   $ <%= moduleName %> another <param>            # Another the <PARAM>
    
  Examples
 
    $ <%= moduleName %> sample TEST                # Uses the TEST
    $ <%= moduleName %> sample YOLO                # Uses the YOLO
+   $ <%= moduleName %> other YOLO                 # Uses the YOLO
+   $ <%= moduleName %> another YOLO               # Uses the YOLO
 `,
 	{
 		alias: {}

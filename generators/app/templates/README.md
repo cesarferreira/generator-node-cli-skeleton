@@ -17,8 +17,17 @@ yarn add <%= moduleName %>
 
 ## Usage
 
-```js
-// todo
+```
+Usage
+
+   $ <%= moduleName %> <command> <params>
+
+   $ <%= moduleName %> sample <param>             # Uses the <PARAM>
+   
+ Examples
+
+   $ <%= moduleName %> sample TEST                # Uses the TEST
+   $ <%= moduleName %> sample YOLO                # Uses the YOLO
 ```
 
 ## Created by
