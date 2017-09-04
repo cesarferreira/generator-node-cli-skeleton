@@ -1,6 +1,6 @@
 {
   "name": "generator-node-cli-skeleton",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A yeoman generator for node modules",
   "homepage": "https://github.com/cesarferreira/generator-node-cli-skeleton#readme",
   "author": {
