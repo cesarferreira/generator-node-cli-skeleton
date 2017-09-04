@@ -24,9 +24,13 @@ Usage
    $ <%= moduleName %> other YOLO                 # Uses the YOLO
    $ <%= moduleName %> another YOLO               # Uses the YOLO
 `,
-	{
-		alias: {}
-	});
+  {
+    alias: {
+      v: 'version'
+    },
+    boolean: ['version']
+  }
+);
 
 if (cli.input.length > 0) {
 	router.init(cli.input, cli.flags);
